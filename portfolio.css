@@ -1,0 +1,108 @@
+
+@font-face {
+    font-family: 'comic_reliefregular';
+    src: url('ComicRelief-webfont.eot');
+    src: url('ComicRelief-webfont.eot?#iefix') format('embedded-opentype'),
+    url('ComicRelief-webfont.woff') format('woff'),
+    url('ComicRelief-webfont.ttf') format('truetype'),
+    url('ComicRelief-webfont.svg#comic_reliefregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: "Josefin Sans";
+    src: url("(https://fonts.googleapis.com/css?family=Josefin+Sans&subset=latin,latin-ext)");
+
+}
+
+/*Nawigacja*/
+
+.nav a {
+    color: black;
+    font-size: 18px;
+    font-family: "Josefin Sans", sans-serif;
+}
+.nav a:hover {
+    text-decoration-line: none;
+    font-weight: bold;
+
+}
+.nav a:active {
+    font-weight: bold;
+}
+.nav li {
+    display: inline;
+    padding: 10px 20px;
+    margin-top: auto;
+}
+/*G³ówna*/
+
+h1 {
+    text-align: center;
+    font-family: "comic_reliefregular", sans-serif;
+    font-weight: bold;
+
+}
+/*CV*/
+.cv h3{
+    text-align: left;
+    font-family: "Comic Relief", sans-serif;
+    font-size: 21px;
+}
+/*Portfolio*/
+.realizacje img {
+    margin-bottom:30px ;
+    width: 360px;
+}
+.realizacje .container {
+    position: relative;
+}
+.realizacje h3 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: bold;
+    font-size: 21px;
+
+}
+/*Kontakt*/
+.kontakt img {
+    height:600px;
+}
+.lista p{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 36px;
+    position: relative;
+    top:-430px;
+    left: 230px;
+    background-color: white;
+    text-align: center;
+    color: black;
+}
+.lista a{
+    color: black;
+}
+/*Realizacje*/
+
+.realizacje h3 {
+    font-family: "Josefin  Sans", sans-serif;
+    font-size: 30px;
+    color:black;
+}
+/*start*/
+.intro p{
+             font-family: "Merriweather", serif;
+    font-size: 20px;
+}
+.intro img{
+    width: 400px;
+}
+.intro {
+    padding-top: 100px;
+}
+.intro h1{
+    text-align: left;
+    font-size: 36px;
+    margin-top: 25%;
+}
